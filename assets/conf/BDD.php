@@ -2,17 +2,17 @@
 	/* 
 	 * Par Clovis Portron
 	 * Le 24/02/2014
-	 * Contient les paramètres de connextion à la base de données
+	 * Contient les paramÃ¨tres de connextion Ã  la base de donnÃ©es
 	 */
 	
 	/* 
-	 * Etablit et renvoie une connexion à la base de donnéeach
+	 * Etablit et renvoie une connexion Ã  la base de donnÃ©each
 	 */
 	function GetDatabase()
 	{
 		try
 		{
-			$c=new PDO("mysql:host=sql.olympe.in;dbname=jpHpXGg0", "jpHpXGg0", "Danapoupoun1107");
+			$c=new PDO("mysql:host=sql.olympe.in;dbname=jpHpXGg0", "jpHpXGg0", "Password");
 			return $c;
 		}
 		catch(PDOException $e)
